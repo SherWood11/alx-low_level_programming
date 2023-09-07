@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Plz input a file name:"
+read add
+echo "#!/bin/bash
+"> ${add}
+vi ${add} 
