@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int digitl = 0;
+	int digit1 = 0;
 	int digit2, digit3;
 
 	while (digitl <= 9)
