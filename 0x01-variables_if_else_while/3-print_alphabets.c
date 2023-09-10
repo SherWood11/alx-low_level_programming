@@ -9,12 +9,13 @@
 int main(void)
 {
 	char lowch = 'a';
-	char uppch = 'A';
 
 	while (lowch < 'z')
 	{
 		putchar(lowch);
 	}
+
+	char uppch = 'A';
 
 	while (uppch < 'Z')
 	{
