@@ -1,22 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-
-/**
- * main - Entry point
+#include "main.h"
+/*
+ * Description: This is a test function for positive or negative value
  *
- * Description: True or False validation
+ * return (void) no return
  *
- * Return: Always 0 (Success)
  */
 
-int positive_or_negative(int i)
+void positive_or_negative(int i)
 {
 	if (i > 0)
-		printf("%i is positive\n", i);
+	{
+		printf("%d is positive\n", i);
+	}
 	else if (i == 0)
-		printf("%i is zero\n", i);
-	else
-		printf("%i is negative\n", i);
-	return (0);
+		printf("%d is zero\n", i);
+	else 
+		printf("%d is negative\n", i);
 }
