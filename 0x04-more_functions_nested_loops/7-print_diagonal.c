@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_digonal - print a digonal line
+ * print_diagonal - print a digonal line
  *
  * @n: it is number of times should print
  *
