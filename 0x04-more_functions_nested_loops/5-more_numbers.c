@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * more_numbers - print 0 - 14 ten times you con only use _putchar
  *
@@ -22,6 +23,6 @@ void more_numbers(void)
 			}
 			_putchar(num + 48);
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
