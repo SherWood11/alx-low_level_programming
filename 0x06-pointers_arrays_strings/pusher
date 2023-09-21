@@ -1,0 +1,6 @@
+#/bin/bash
+echo "commit massige"
+read pusher
+git add .
+git commit -m $pusher
+git push
