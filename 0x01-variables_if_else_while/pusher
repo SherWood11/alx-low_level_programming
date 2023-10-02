@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "input ur commit:"
-read git
-git add .
-git commit -m "${git}"
-git push
